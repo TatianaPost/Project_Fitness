@@ -1,0 +1,584 @@
+/* * {
+    border: 1px solid red;
+} */
+
+
+/* General */
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto 76px auto;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+@font-face {
+    font-family: Roboto_bold;
+    src: url("/fonts/Roboto-Bold_1.ttf");
+}
+
+@font-face {
+    font-family: Gora-Free;
+    src: url("/fonts/Gora-Free.ttf");
+}
+
+@font-face {
+    font-family: Open-Sans_bold;
+    src: url("/fonts/OpenSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: OpenSans-ExtraBold;
+    src: url("/fonts/OpenSans-ExtraBold.ttf")
+}
+
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url("/fonts/OpenSans-Regular.ttf")
+}
+
+@font-face {
+    font-family: Roboto-Light;
+    src: url("/fonts/Roboto-Light.ttf")
+}
+
+
+/* End General */
+
+
+/* BAM */
+
+.opensans_regul {
+    font-family: OpenSans-Regular;
+}
+
+.opensans_b {
+    font-family: Open-Sans_bold;
+}
+
+.opensans_extra {
+    font-family: OpenSans-ExtraBold;
+}
+
+.roboto_l {
+    font-family: Roboto-Light;
+}
+
+.roboto_b {
+    font-family: Roboto_bold;
+}
+
+.gora {
+    font-family: Gora-Free;
+}
+
+
+/* First Page */
+
+.page_1 {
+    width: 100%;
+}
+
+
+/* Заголовок */
+
+.header_page_1 {
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 77px;
+    padding: 0;
+    height: 76px;
+    width: 100%;
+    background-color: #1a1b1c;
+}
+
+.logo {
+    margin: 31px 5px 29px 15px;
+    padding: 0;
+    width: 20%;
+    float: left;
+    color: #e1942a;
+    font-size: 28px;
+    text-align: center;
+}
+
+
+/* Menu */
+
+.menu {
+    /* position: relative; */
+    text-align: center;
+    padding: 0;
+    width: 350px;
+    margin: 35px auto 33px auto;
+}
+
+.menu_items {
+    display: inline-block;
+}
+
+.menu_items_link {
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 15px;
+    padding: 0;
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    vertical-align: middle;
+    transition-duration: 0.3s;
+}
+
+.menu_items_link:hover {
+    color: #e1942a;
+}
+
+.menu_items_link_img {
+    float: left;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.img_correct {
+    margin-top: 3px;
+}
+
+.menu_items:first-child {
+    margin-left: 0;
+}
+
+
+/* End Menu */
+
+.header_info {
+    /* position: relative; */
+    width: 150px;
+    height: 50px;
+    float: right;
+    padding: 0;
+    text-align: right;
+    margin: -73px 22px 0 0;
+}
+
+.header_info p {
+    margin: 0;
+    padding: 0;
+    font-size: 21px;
+    color: #fff;
+}
+
+.header_info a {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #e1942a;
+    transition-duration: 0.3s;
+}
+
+.header_info a:hover {
+    color: #fff;
+}
+
+
+/* Конец заголовка */
+
+
+/* Body */
+
+.first_page_bg {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 58px;
+    width: 58%;
+}
+
+
+/* End Body */
+
+
+/* second page */
+
+.page_2 {
+    padding: 0;
+    margin: 0;
+    padding-top: 68px;
+    background-color: #1a1b1c;
+}
+
+
+/* Header second Page */
+
+.header_page_2 {
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #fff;
+    font-size: 39px;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 49px;
+}
+
+
+/* End header second page */
+
+
+/* Body second page */
+
+.circles {
+    border-radius: 50%;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+    width: 68px;
+    height: 68px;
+    background-color: #d99446;
+}
+
+.blocks {
+    margin-left: 16%;
+    margin-right: 0;
+    margin-bottom: 53px;
+    width: 18%;
+    float: left;
+    text-align: center;
+}
+
+.blocks:last-child {
+    float: right;
+    margin-left: 1%;
+    margin-right: 16%;
+}
+
+.blocks:nth-child(2) {
+    margin-left: 7%;
+}
+
+.second_part {
+    font-size: 18px;
+    color: #fff;
+    margin: 0 auto;
+    width: 100%;
+    font-family: OpenSans-Regular;
+}
+
+.second_part h3 {
+    font-size: 14px;
+    letter-spacing: 0.24em;
+    line-height: 30px;
+}
+
+.second_part ul {
+    text-align: left;
+}
+
+
+/* Circles IMG */
+
+.circles_img {
+    vertical-align: middle;
+    margin-top: 18px;
+}
+
+.circles_img_correct {
+    margin-top: 16px;
+}
+
+
+/* End Circles IMG */
+
+
+/* End Body second page*/
+
+
+/* End second page */
+
+
+/* Thirth Page */
+
+.page_3 {
+    margin: 0;
+    padding-top: 68px;
+    background-color: #fff;
+}
+
+
+/* Заголовок */
+
+.header_page_3 {
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #1a1b1c;
+    font-size: 49px;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 60px;
+}
+
+
+/* End Заголовок */
+
+
+/* Body */
+
+
+/* Main content */
+
+.content_body {
+    padding: 0;
+    width: 100%;
+    display: inline-block;
+}
+
+.content_body_news {
+    display: block;
+    width: 80%;
+    height: 200px;
+    margin-left: 16px;
+    margin-right: 3px;
+    margin-bottom: 27px;
+    overflow: hidden;
+}
+
+.blocks_body_news_content {
+    float: left;
+    color: #757474;
+    text-align: left;
+    font-size: 18px;
+    margin-left: 5px;
+    line-height: 1.3em;
+    width: 60%;
+}
+
+.wrapper_body_news_img {
+    width: 180px;
+    height: 190px;
+    padding: 5px 0 0 5px;
+    float: left;
+}
+
+
+/* End main content */
+
+
+/* Correcting */
+
+.data {
+    color: #1a1b1c;
+    font-size: 14px;
+    margin-bottom: -25px;
+}
+
+.black {
+    color: #1a1b1c;
+}
+
+.grey {
+    color: #757474;
+}
+
+
+/* End correcting */
+
+
+/* Aside */
+
+.body_news_img {
+    height: 167px;
+    float: left;
+    margin-right: 18px;
+}
+
+.content_top_news {
+    letter-spacing: 0.1em;
+    width: 15%;
+    margin-right: 1%;
+    margin-top: -689px;
+    margin-left: 1px;
+    padding: 0;
+    text-align: center;
+    float: right;
+}
+
+.top_news_img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 13px;
+}
+
+
+/* End Aside */
+
+
+/* Numbers under content */
+
+.numbers_pages {
+    width: 380px;
+    height: 30px;
+    margin: 40px auto 60px auto;
+    text-align: center;
+    padding: 0;
+}
+
+.numbers_pages p {
+    display: inline;
+    padding: 0;
+}
+
+.numbers_pages_text {
+    float: left;
+}
+
+.numbers_pages_img_1 {
+    /* float: left; */
+    margin-top: 3px;
+    vertical-align: middle;
+}
+
+.numbers_links {
+    display: inline-block;
+    color: #656464;
+    padding-top: 2px;
+    margin-left: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    width: 20px;
+    height: 20px;
+    font-family: Roboto_bold;
+    transition-duration: 0.3s;
+}
+
+.numbers_links:hover {
+    background-color: #2b2b40;
+    color: #fff;
+}
+
+.numbers_pages_img_2 {
+    margin-left: 5px;
+    /* float: left; */
+    margin-top: 3px;
+    vertical-align: middle;
+}
+
+
+/* End Numbers under content */
+
+
+/* End Body */
+
+
+/* End Thirth Page */
+
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    height: 78px;
+    text-align: center;
+    background-color: #1a1b1c;
+    overflow: hidden;
+}
+
+.footer_address p {
+    float: left;
+    padding: 0;
+    width: 43%;
+    height: 57px;
+    margin-top: 16px;
+    margin-bottom: 4px;
+    margin-left: 19px;
+    color: #fff;
+    font-size: 14px;
+    font-family: Roboto_bold;
+    text-align: left;
+}
+
+.loftschool_link {
+    font-family: Open-Sans_bold;
+    font-size: 14px;
+    color: #fff;
+    transition-duration: 0.3s;
+}
+
+.loftschool:hover {
+    color: #e1942a;
+}
+
+.footer_logo {
+    width: 15%;
+    float: left;
+    margin-top: 30px;
+    font-size: 18px;
+    color: #e1942a;
+}
+
+.footer_logo p {
+    margin: 0;
+    padding: 0;
+}
+
+.footer_social_block {
+    float: right;
+    margin: 12px 20px 0 0;
+    text-align: left;
+}
+
+.footer_social_text {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.footer_social {
+    margin: 0;
+    display: inline-block;
+    padding: 0;
+}
+
+.footer_social_links {
+    margin: 5px auto;
+    padding: 0;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: #fff;
+    transition-duration: 0.3s;
+}
+
+.footer_social_links:hover {
+    background-color: #e1942a;
+}
+
+.footer_social_links_img {
+    margin: 7px auto;
+    padding: 0;
+    display: block;
+    width: 15px;
+    height: 9px;
+}
+
+.fb_correct {
+    margin-top: 5px;
+    width: 7px;
+    height: 13px;
+}
+
+
+/* End Footer */
